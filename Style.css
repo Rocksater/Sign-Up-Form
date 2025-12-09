@@ -41,3 +41,7 @@
     cursor: pointer;
     background-color: rgb(3, 3, 150);
 }
+.input-container{
+    padding: 0.2rem;
+    border-radius: 10px;
+}
