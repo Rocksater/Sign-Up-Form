@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 5px 15px rgba(0,0,0,0.15);
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+    border-radius: 50px;
+}
+.division-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.form-container h1{
+    padding-left: 7rem;
+    color: blue;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.division-container a{
+    text-decoration: none;
+}
+.division-container a:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 150);
+}
