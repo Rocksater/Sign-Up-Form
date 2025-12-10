@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    justify-content: center;
+    align-items: center;
+    padding: 9rem;
+   background-color: rgb(255, 255, 251);
+    margin-left: 9rem;
+}
 .form-container{
     display: flex;
     flex-direction: column;
     box-shadow:  0 5px 15px rgba(0,0,0,0.15);
     width: 400px;
-    height: 400px;
+    height: 450px;
     padding: 2rem;
     border-radius: 50px;
 }
@@ -40,8 +47,15 @@
 .btn:hover{
     cursor: pointer;
     background-color: rgb(3, 3, 150);
+    transition: 0.5s;
 }
 .input-container{
-    padding: 0.2rem;
+    padding: 0.5rem;
     border-radius: 10px;
+    border-style: ridge;
+}
+.input-container:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.5s;
 }
